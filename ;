@@ -1,0 +1,18 @@
+[1mdiff --git a/src/main/java/com/example/booking_ms/flight.java b/src/main/java/com/example/booking_ms/flight.java[m
+[1mindex 1d1e51d..dcf62c9 100644[m
+[1m--- a/src/main/java/com/example/booking_ms/flight.java[m
+[1m+++ b/src/main/java/com/example/booking_ms/flight.java[m
+[36m@@ -1,4 +1,13 @@[m
+ package com.example.booking_ms;[m
+ [m
+[32m+[m[32mimport org.springframework.web.bind.annotation.GetMapping;[m
+[32m+[m[32mimport org.springframework.web.bind.annotation.RestController;[m
+[32m+[m
+[32m+[m[32m@RestController[m
+ public class flight {[m
+[32m+[m
+[32m+[m[32m    @GetMapping("/flight")[m
+[32m+[m[32m    public String getData () { return "Please book your flight ticket in bengaluru 49% discount";[m
+[32m+[m
+[32m+[m[32m    }[m
+ }[m
